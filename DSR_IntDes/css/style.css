@@ -75,6 +75,49 @@ background-color: lightgray;}
 
     #ourStudioGeneral p {
         width: 635px;
+        padding-left: 403px;
     }
+
+#meetUsGeneral {
+
+    width: 1440px;
+    height: 548px;
+    float: left;
+}
+
+    #headPictures {
+        background-image: url(../images/meetUsArrows.png);
+        background-repeat: no-repeat;
+        background-position: center center;
+        float: left;
+        width: 1240px;
+        height: 307px;
+        padding: 0 100px 0 100px;
+    }
+
+    #headPictures a { /** 123 tabs **/
+        background-image: url(../images/meetUsTabs123.png);
+        width: 210px;
+        height: 72px;
+        float: right;
+        margin-top: -100px;
+        margin-right: 96px;
+    }
+
+    #headPictures b { /** Elizabeth **/
+        background-image: url(../images/Elizabeth.png);
+        width: 306.501px;
+        height: 306.508px;
+        float: left;
+    }
+
+    #headPictures c { /** Charles **/
+        background-image: url(../images/Ricardo.jpg);
+        width: 306.501px;
+        height: 306.508px;
+        float: left;
+        margin-left: 18.5px;
+    }
+
 
 
