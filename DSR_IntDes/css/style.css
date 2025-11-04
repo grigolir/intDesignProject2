@@ -71,6 +71,7 @@ background-color: lightgray;}
 #ourStudioGeneral {
     width: 1440px;
     float: left;
+    margin-top: 40px;
 }
 
     #ourStudioGeneral p {
@@ -79,45 +80,105 @@ background-color: lightgray;}
     }
 
 #meetUsGeneral {
-
     width: 1440px;
     height: 548px;
     float: left;
 }
 
-    #headPictures {
-        background-image: url(../images/meetUsArrows.png);
-        background-repeat: no-repeat;
-        background-position: center center;
-        float: left;
-        width: 1240px;
-        height: 307px;
-        padding: 0 100px 0 100px;
-    }
+.tabs123 {
+    background-image: url(../images/meetUsTabs123.png);
+    width: 210px;
+    height: 72px;
+    float: right;
+    margin-top: -100px;
+    margin-right: 96px;
+}
 
-    #headPictures a { /** 123 tabs **/
-        background-image: url(../images/meetUsTabs123.png);
-        width: 210px;
-        height: 72px;
-        float: right;
-        margin-top: -100px;
-        margin-right: 96px;
-    }
+.arrows {
+    background-image: url(../images/meetUsArrows.png);
+    background-repeat: no-repeat;
+    width: 1440px;
+    height: 548px;
+    float: left;
+    margin-top: 172px;
+}
 
-    #headPictures b { /** Elizabeth **/
-        background-image: url(../images/Elizabeth.png);
-        width: 306.501px;
-        height: 306.508px;
-        float: left;
-    }
+    
 
-    #headPictures c { /** Charles **/
-        background-image: url(../images/Ricardo.jpg);
-        width: 306.501px;
-        height: 306.508px;
-        float: left;
-        margin-left: 18.5px;
-    }
+
+.imageElizabeth {
+    background-image: url(../images/Elizabeth.png);
+    width: 306.501px;
+    height: 306.508px;
+    float: left;
+    margin-left: 66px;
+    margin-top: -330px;
+}
+
+.nameElizabeth {
+    width: 307px;
+    height: 48px;
+    margin-left: 79px;
+    margin-top: -10px;
+    float: left;
+}
+
+.imageRicardo {
+    background-image: url(../images/Ricardo.jpg);
+    width: 306.501px;
+    height: 306.508px;
+    float: left;
+    margin-top: -330px;
+}
+
+.nameRicardo {
+    width: 307px;
+    height: 48px;
+    margin-top: -10px;
+    float: left;
+}
+
+.imageCharles {
+    background-image: url(../images/Charles.png);
+    width: 306.501px;
+    height: 306.508px;
+    float: left;
+    margin-left: 10px;
+    margin-top: -330px;
+}
+
+.nameCharles {
+    width: 307px;
+    height: 48px;
+    margin-left: 10px;
+    margin-top: -10px;
+    float: left;
+}
+
+.imageBenjamin {
+    background-image: url(../images/Benjamin.jpg);
+    width: 306.501px;
+    height: 306.508px;
+    float: left;
+    margin-left: 10px;
+    margin-top: -330px;
+}
+
+.nameBenjamin {
+    width: 340px;
+    height: 48px;
+    margin-left: 10px;
+    margin-top: -10px;
+    float: left;
+}
+
+#meetUsDescription {
+    width: 1074px;
+    height: 304px;
+    float: left;
+    margin-left: 176px;
+}
+
 
 
 
