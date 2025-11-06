@@ -5,6 +5,30 @@
 <title>DSR_Project2</title>
     <link rel="stylesheet" href="https://use.typekit.net/bvp4aco.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            if ($(".Elizabeth").click(function())) {
+                
+            }
+            $(".Elizabeth").click(function(){
+                    $("#ElizabethDesc").slideDown();
+                    $("#RicardoDesc").hide();
+                    $("#CharlesDesc").hide();
+                    $("#BenjaminDesc").hide();
+            });
+
+            $(".Ricardo").click(function(){
+                    $("#ElizabethDesc").hide();
+                    $("#RicardoDesc").slideDown();
+            });
+
+            
+
+        });
+
+
+    </script>
 </head>
 
 
@@ -67,12 +91,88 @@
         </div>
         <div id="meetUsDescription" class="center">
              <br>
-            <p class="stratumText20">
+            <p id="ElizabethDesc" class="stratumText20">
                 Elizabeth Diller founded Diller Scofidio + Renfro in 1981 with partner Ricardo Scofidio. Along with Ric, Liz was awarded the MacArthur Foundation ‘Genius’ Grant from 1999 to 2004, the first given in the field of architecture. She is a Professor of Architecture at Princeton University. Liz is a Fellow of the American Academy of Arts and Letters, the American Academy of Arts and Sciences, and the Royal Institute of British Architects (RIBA). Among her many honors are a Lifetime Achievement Award from the National Academy of Design, the Brunner Prize from the American Academy of Arts and Letters, the Barnard Medal of Distinction, and an Honorary Doctorate of the Humanities from Occidental College. In 2009, Liz was selected by Time Magazine as one of the “100 Most Influential People in the World.”
             </p>
+
+            <p id="RicardoDesc" class="stratumText20">
+                Ricardo Scofidio founded Diller Scofidio + Renfro in 1981 with partner Elizabeth Diller and has over 50 years of experience working in architecture. Along with Diller, Scofidio was awarded the MacArthur Foundation ‘Genius’ Grant from 1999 to 2004, the first given in the field of architecture. He is Professor Emeritus of Architecture at Cooper Union School of Architecture. Scofidio is a fellow of the American Academy of Arts and Sciences and of the Royal Institute of British Architects. He has been recognized by the National Academy of Design with a Lifetime Achievement Award, and by the American Academy of Arts and Letters with the Brunner Prize. Scofidio was selected by Time Magazine as one of the “100 Most Influential People in the World.”
+            </p>
+
+            <p id="CharlesDesc" class="stratumText20">
+                Charles Renfro joined the studio in 1997 and was named Partner in 2004; he has practiced architecture for over 30 years. He is a Visiting Professor of Curatorial Studies at the School of Visual Arts in New York. He was recently named a National Academy Academician in 2016, and received the 2015 Texas Medal of the Arts Award. He is President of the Board at Storefront for Art and Architecture in New York, and on the board of Spaceworks, dedicated to providing rehearsal and studio space for New York artists.
+            </p>
+
+            <p id="BenjaminDesc" class="stratumText20">
+                Benjamin Gilmartin joined DS+R in 2004 and was named Partner in 2015. Ben has been practicing architecture for over 25 years. Ben is currently a Visiting Instructor and Lecturer for the Harvard Graduate School of Design Thesis Program. Ben lectures extensively, presenting the studio’s work to international audiences and has been a longtime contributor to the architecture journal Praxis. In 2015 he delivered the keynote address and served as the Honor Awards Jury Chair for the AIA Colorado and Western Mountain Region Practice and Design Conference, in addition to giving the keynote address for the AIA Wisconsin Convention and Expo. Last year he was also an AIA Minnesota speaker and Honor Awards Jury Member.
+            </p>
+            
+            <!---AFTER adding pictures and names: look up how to do a link, and the link will quickly pop up the text--->
+        </div>
+        <div id="projectsGeneral">
+            <br><br>
+            <div class="stratumText140">Projects</div>
+            <br>
+            <div class="projectsTabs"></div>
+            <div class="projectsTabsText">Cultural<br>Public Space<br>Education<br>Residential<br>Commercial<br>Installation<br>Display<br>Objects<br>Preformance<br>Publications</div>
+
+            <div class="projectsBox1">
+                <div class="imageProjectBox1"></div>
+                <div>
+                    <div class="nameProject1 stratumText40Regular">
+                        Pina Bausch Zentrum
+                    </div>
+                </div>
+            </div>
+
+            <div class="projectsBox2">
+                <div class="imageProjectBox2"></div>
+                <div>
+                    <div class="nameProject2 stratumText40Regular">
+                        The Broad Expansion
+                    </div>
+                </div>
+            </div>
+
+            <div class="projectsBox3">
+                <div class="imageProjectBox3"></div>
+                <div>
+                    <div class="nameProject3 stratumText40Regular">
+                        UNM CCAT
+                    </div>
+                </div>
+            </div>
+
+            <div class="projectsBox4">
+                <div class="imageProjectBox4"></div>
+                <div>
+                    <div class="nameProject4 stratumText40Regular">
+                        Casa Belongó
+                    </div>
+                </div>
+            </div>
+
+            <div class="projectsBox5">
+                <div class="imageProjectBox5"></div>
+                <div>
+                    <div class="nameProject5 stratumText40Regular">
+                        V&A East Storehouse
+                    </div>
+                </div>
+            </div>
+
+            <div class="projectsBox6">
+                <div class="imageProjectBox6"></div>
+                <div>
+                    <div class="nameProject6 stratumText40Regular">
+                        Sarofim Hall
+                    </div>
+                </div>
+            </div>
+
+            <div class="tabs1234"></div> <!---work on this after-->
         </div>
         <!---make a DIV per person/heading combo, then talk to Ted about how to make it interactive with the text--->
-        <!---AFTER adding pictures and names: look up how to do a link, and the link will quickly pop up the text--->
     </div>
 </body>
 </html>

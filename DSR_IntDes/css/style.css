@@ -104,7 +104,13 @@ background-color: lightgray;}
 }
 
     
-
+/*SHOW HIDE SECTION */
+.Elizabeth, .Ricardo {
+    cursor: pointer;
+}
+#RicardoDesc {
+    display: none;
+}
 
 .imageElizabeth {
     background-image: url(../images/Elizabeth.png);
@@ -179,6 +185,128 @@ background-color: lightgray;}
     margin-left: 176px;
 }
 
+#projectsGeneral {
+    width: 1440px;
+    float: left;
+}
+
+    .projectsTabs {
+        background-image: url(../images/projectsRectangles.png);
+        width: 486px;
+        height: 875px;
+    }
+
+    .projectsTabsText {
+        font-family: stratum-1-web, sans-serif;
+        font-size: 48px;
+        font-weight: 400;
+        font-style: normal;
+        margin-left: 20px;
+        margin-top: -870px;
+        line-height: 80px; /* here */
+    }
 
 
+    .imageProjectBox1 {
+        background-image: url(../images/projectBox1.png);
+        width: 306.501px;
+        height: 306.508px;
+        float: right;
+        margin-right: 450px;
+        margin-top: -800px;
+    }
 
+    .nameProject1 {
+        float: left;
+        margin-left: 690px;
+        margin-top: -492px;
+        width: 307px;
+        text-align: left;
+    }
+
+    .imageProjectBox2 {
+        background-image: url(../images/projectBox2.png);
+        width: 306.501px;
+        height: 306.508px;
+        float: right;
+        margin-right: 100px;
+        margin-top: -800px;
+    }
+
+    .nameProject2 {
+        float: left;
+        margin-left: 1040px;
+        margin-top: -492px;
+        width: 307px;
+        text-align: left;
+    }
+
+    .imageProjectBox3 {
+        background-image: url(../images/projectBox3.png);
+        width: 306.501px;
+        height: 306.508px;
+        float: right;
+        margin-right: 450px;
+        margin-top: -380px;
+    }
+
+    .nameProject3 {
+        float: left;
+        margin-left: 690px;
+        margin-top: -70px;
+        width: 307px;
+        text-align: left;
+    }
+
+    .imageProjectBox4 {
+        background-image: url(../images/projectBox4.png);
+        width: 306.501px;
+        height: 306.508px;
+        float: right;
+        margin-right: 100px;
+        margin-top: -380px;
+    }
+
+    .nameProject4 {
+        float: left;
+        margin-left: 1040px;
+        margin-top: -70px;
+        width: 307px;
+        text-align: left;
+    }
+
+    .imageProjectBox5 {
+        background-image: url(../images/projectBox5.png);
+        width: 306.501px;
+        height: 306.508px;
+        float: right;
+        margin-right: 450px;
+        margin-top: 40px;
+    }
+
+    .nameProject5 {
+        float: left;
+        margin-left: 690px;
+        width: 307px;
+        text-align: left;
+    }
+
+    .imageProjectBox6 {
+        background-image: url(../images/projectBox6.png);
+        width: 306.501px;
+        height: 306.508px;
+        float: right;
+        margin-right: 100px;
+        margin-top: -306px;
+    }
+
+    .nameProject6 {
+        float: left;
+        margin-left: 1040px;
+        margin-top: -70px;
+        width: 307px;
+        text-align: left;
+    }
+
+    
+    
