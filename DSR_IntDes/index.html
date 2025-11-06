@@ -7,24 +7,28 @@
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
     <script>
-        $(document).ready(function(){
-            if ($(".Elizabeth").click(function())) {
-                
-            }
-            $(".Elizabeth").click(function(){
+        $(document).ready(function() {
+            $(".Elizabeth, .Ricardo, .Charles, .Benjamin").click(function() {
+
+                $("[id$='Desc']").hide();
+
+                if ($(this).hasClass("Elizabeth")) {
+                    $("[id$='Desc']").hide();
                     $("#ElizabethDesc").slideDown();
-                    $("#RicardoDesc").hide();
-                    $("#CharlesDesc").hide();
-                    $("#BenjaminDesc").hide();
-            });
-
-            $(".Ricardo").click(function(){
-                    $("#ElizabethDesc").hide();
+                } 
+                else if ($(this).hasClass("Ricardo")) {
+                    $("[id$='Desc']").hide();
                     $("#RicardoDesc").slideDown();
+                } 
+                else if ($(this).hasClass("Charles")) {
+                    $("[id$='Desc']").hide();
+                    $("#CharlesDesc").slideDown();
+                } 
+                else if ($(this).hasClass("Benjamin")) {
+                    $("[id$='Desc']").hide();
+                    $("#BenjaminDesc").slideDown();
+                }
             });
-
-            
-
         });
 
 
@@ -107,10 +111,9 @@
                 Benjamin Gilmartin joined DS+R in 2004 and was named Partner in 2015. Ben has been practicing architecture for over 25 years. Ben is currently a Visiting Instructor and Lecturer for the Harvard Graduate School of Design Thesis Program. Ben lectures extensively, presenting the studio’s work to international audiences and has been a longtime contributor to the architecture journal Praxis. In 2015 he delivered the keynote address and served as the Honor Awards Jury Chair for the AIA Colorado and Western Mountain Region Practice and Design Conference, in addition to giving the keynote address for the AIA Wisconsin Convention and Expo. Last year he was also an AIA Minnesota speaker and Honor Awards Jury Member.
             </p>
             
-            <!---AFTER adding pictures and names: look up how to do a link, and the link will quickly pop up the text--->
+
         </div>
         <div id="projectsGeneral">
-            <br><br>
             <div class="stratumText140">Projects</div>
             <br>
             <div class="projectsTabs"></div>

@@ -105,10 +105,11 @@ background-color: lightgray;}
 
     
 /*SHOW HIDE SECTION */
-.Elizabeth, .Ricardo {
+.Elizabeth, .Ricardo, .Charles, .Benjamin {
     cursor: pointer;
 }
-#RicardoDesc {
+
+#ElizabethDesc, #RicardoDesc, #CharlesDesc, #BenjaminDesc {
     display: none;
 }
 
@@ -202,8 +203,8 @@ background-color: lightgray;}
         font-weight: 400;
         font-style: normal;
         margin-left: 20px;
-        margin-top: -870px;
-        line-height: 80px; /* here */
+        margin-top: -884px;
+        line-height: 89px;
     }
 
 
@@ -303,7 +304,7 @@ background-color: lightgray;}
     .nameProject6 {
         float: left;
         margin-left: 1040px;
-        margin-top: -70px;
+        margin-top: -98xfpx;
         width: 307px;
         text-align: left;
     }
