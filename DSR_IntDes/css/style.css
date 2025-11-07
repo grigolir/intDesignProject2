@@ -8,58 +8,82 @@ body {	margin: 0;}
     background-color: white;
 }
 
-/* MULTI-USE CLASSES */
+/* TEXT CLASSES */
+
+.stratumBase {
+    font-family: stratum-1-web, sans-serif;
+    font-style: normal;
+}
 
 .stratumText140 {
-    font-family: stratum-1-web, sans-serif;
     font-size: 140px;
     font-weight: 400;
-    font-style: normal;
 }
 
 .stratumText40Regular {
-    font-family: stratum-1-web, sans-serif;
     font-size: 40px;
     font-weight: 400;
-    font-style: normal;
 }
 
 .stratumText40Medium {
-    font-family: stratum-1-web, sans-serif;
     font-size: 40px;
     font-weight: 700;
-    font-style: normal;
 }
 
 .stratumText20 {
-    font-family: stratum-1-web, sans-serif;
     font-size: 20px;
     font-weight: 400;
-    font-style: normal;
 }
 
 .center {
     text-align: center;
 }
 
+
 /* HEADER */
 
 #headerTop {
+    position: fixed;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%); /* Shift it back by half its width (50% of 1027px) for perfect centering */
+    z-index: 1000;
+
     background-image: url(../images/headingLines.png);
     width: 1027px;
     height: 90px;
-    margin: 20px auto;
+    margin: 0 auto;
 }
+
+    .smallLogoHeader {
+        position: fixed;
+        background-image: url(../images/DSRLogoSmall.png);
+        width: 84px;
+        height: 107px;
+        float: left;
+        margin-top: 20px;
+        margin-left: 40px;
+    }
 
     .headerTopText {
         font-size: 40px;
         padding-top: 20px;
     }
 
-    .theRestHeader {
-    font-family: stratum-1-web, sans-serif;
-    font-weight: 400;
-    font-style: normal;
+        .theRestHeader {
+        font-family: stratum-1-web, sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        }
+
+    .headerWhiteBar {
+        height: 150px;
+        width: 100%;
+        background-color: rgb(255, 255, 255);
+        float: left;
+        position: fixed;
+        left: 0;
+        right: 0;
     }
 
 #belowHeader {
@@ -140,70 +164,53 @@ body {	margin: 0;}
     display: none;
 }
 
-.imageElizabeth {
-    background-image: url(../images/Elizabeth.png);
+/* MEET US */
+
+.imagePartner {
     width: 306.501px;
     height: 306.508px;
     float: left;
-    margin-left: 66px;
     margin-top: -330px;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
-.nameElizabeth {
-    width: 307px;
-    height: 48px;
-    margin-left: 79px;
-    margin-top: -10px;
-    float: left;
+.imageElizabeth {
+    background-image: url(../images/Elizabeth.png);
+    margin-left: 66px;
 }
 
 .imageRicardo {
     background-image: url(../images/Ricardo.jpg);
-    width: 306.501px;
-    height: 306.508px;
-    float: left;
-    margin-top: -330px;
-}
-
-.nameRicardo {
-    width: 307px;
-    height: 48px;
-    margin-top: -10px;
-    float: left;
 }
 
 .imageCharles {
     background-image: url(../images/Charles.png);
-    width: 306.501px;
-    height: 306.508px;
-    float: left;
     margin-left: 10px;
-    margin-top: -330px;
-}
-
-.nameCharles {
-    width: 307px;
-    height: 48px;
-    margin-left: 10px;
-    margin-top: -10px;
-    float: left;
 }
 
 .imageBenjamin {
     background-image: url(../images/Benjamin.jpg);
-    width: 306.501px;
-    height: 306.508px;
-    float: left;
     margin-left: 10px;
-    margin-top: -330px;
+}
+
+.namePartner {
+    width: 307px;
+    height: 48px;
+    margin-top: -10px;
+    float: left;
+}
+
+.nameElizabeth {
+    margin-left: 79px; 
+}
+
+.nameCharles, .nameBenjamin {
+    margin-left: 10px;
 }
 
 .nameBenjamin {
     width: 340px;
-    height: 48px;
-    margin-left: 10px;
-    margin-top: -10px;
-    float: left;
 }
 
 #meetUsDescription {
