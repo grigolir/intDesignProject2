@@ -1,13 +1,14 @@
 @charset "UTF-8";
 /* CSS Document */
-body {	margin: 0; 
-background-color: lightgray;}
+body {	margin: 0;}
 
 #container {
     width: 1440px;
     margin: 0 auto; /*CENTER EVERYTHING... MAYBE CHANGE BODY TO A LIGHT GRAY COLOR*/
     background-color: white;
 }
+
+/* MULTI-USE CLASSES */
 
 .stratumText140 {
     font-family: stratum-1-web, sans-serif;
@@ -41,6 +42,8 @@ background-color: lightgray;}
     text-align: center;
 }
 
+/* HEADER */
+
 #headerTop {
     background-image: url(../images/headingLines.png);
     width: 1027px;
@@ -68,6 +71,8 @@ background-color: lightgray;}
     height: 562px;
 }
 
+/* OUR STUDIO */
+
 #ourStudioGeneral {
     width: 1440px;
     float: left;
@@ -78,6 +83,28 @@ background-color: lightgray;}
         width: 635px;
         padding-left: 403px;
     }
+
+    .studioLeftPic {
+        background-image: url(../images/studioLeftPic.png);
+        background-repeat: no-repeat;
+        float: left;
+        width: 399px;
+        height: 576px;
+        margin-left: -290px;
+        margin-top: -150px;
+    }
+
+    .studioRightPic {
+        background-image: url(../images/studioRightPic.png);
+        background-repeat: no-repeat;
+        float: right;
+        width: 517px;
+        height: 498px;
+        margin-right: -458px;
+        margin-top: -150px;
+    }
+
+/* MEET US */
 
 #meetUsGeneral {
     width: 1440px;
@@ -185,6 +212,8 @@ background-color: lightgray;}
     float: left;
     margin-left: 176px;
 }
+
+/* OUR PROJECTS */
 
 #projectsGeneral {
     width: 1440px;
@@ -304,10 +333,9 @@ background-color: lightgray;}
     .nameProject6 {
         float: left;
         margin-left: 1040px;
-        margin-top: -98xfpx;
+        margin-top: -98px;
         width: 307px;
         text-align: left;
     }
 
-    
     
