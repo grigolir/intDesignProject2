@@ -46,7 +46,7 @@ body {	margin: 0;}
     position: fixed;
     top: 20px;
     left: 50%;
-    transform: translateX(-50%); /* Shift it back by half its width (50% of 1027px) for perfect centering */
+    transform: translateX(-50%);
     z-index: 1000;
 
     background-image: url(../images/headingLines.png);
@@ -294,4 +294,67 @@ body {	margin: 0;}
     .nameRow3 {
         margin-top: 152px;
     }
+
+/* OUR PROJECTS - projectOne.html & projectTwo.html */
+
+.projectTextBoxOne {
+    width: 634px;
+    height: 624px;
+}
+
+.projectTextBoxTwo {
+    width: 634px;
+    height: 895px;
+    margin: 0 auto;
+    margin-top: 80px;
+}
+
+.projectLargePic {
+    width: 706px;
+    height: 666px;
+    background-repeat: no-repeat;
+    float: right;
+    margin-top: -640px;
+}
+
+.projectPic1-1 {
+    background-image: url(../images/project1.1.png);
+    background-repeat: no-repeat;
+    width: 517px;
+    height: 498px;
+    float: left;
+    margin-left: -220px;
+    margin-top: -800px;
+}
+
+.projectPic1-2 {
+    background-image: url(../images/project1.2.png);
+    background-repeat: no-repeat;
+    width: 399px;
+    height: 576px;;
+    float: right;
+    margin-right: -300px;
+    margin-top: -500px;
+}
+
+.projectPic2-1 {
+    background-image: url(../images/project2.1.png);
+    background-repeat: no-repeat;
+    float: left;
+    width: 399px;
+    height: 576px;
+    margin-left: -220px;
+    margin-top: -800px;
+}
+
+.projectPic2-2 {
+    background-image: url(../images/project2.2.png);
+    background-repeat: no-repeat;
+    float: right;
+    width: 399px;
+    height: 576px;
+    margin-right: -274px;
+    margin-top: -450px;
+}
+
     
