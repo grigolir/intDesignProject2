@@ -374,4 +374,30 @@ body {	margin: 0;}
     margin-top: -450px;
 }
 
+/* CONTACT US */
+
+.contactUsPic {
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url(../images/contactUsPic.png);
+    width: 553px;
+    height: 602px;
+}
+
+.contactUsAllignment {
+    margin-top: -550px;
+}
+
+/* FOOTER */
+
+.footerDSRLogo {
+    margin-left: auto;
+    margin-right: auto;
+    display: block; 
+    background-image: url(../images/DSRLogoSmall.png);
+    background-position: center;
+    width: 84px;
+    height: 107px;
+}
+
     
