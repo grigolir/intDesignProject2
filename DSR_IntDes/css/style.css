@@ -385,14 +385,14 @@ body {	margin: 0;}
 .newsSection {
     display: flex;
     justify-content: center;
-    gap: 20px;
     z-index: 2;
+    gap: 20px;
     margin-top: -548px;
-    float: left;
+    margin-left: -40px;
 }
 
 .newsArrows {
-    margin-top: 150px;
+    
 }
 
 .imageNews {
@@ -400,6 +400,7 @@ body {	margin: 0;}
     height: 461px;
     background-repeat: no-repeat;
     background-size: cover;
+    margin-top: 320px;
 }
 
 .newsOne {
