@@ -97,11 +97,11 @@ body {	margin: 0;}
 
 .behindHeaderPicture {
     background-image: url(../images/indexBackground.jpeg);
+    /* background-size: cover; */
     background-repeat: no-repeat;
     background-position: center;
-    /* 1. Set width to the full viewport width */
     width: 100vw;
-    height: 1000px;
+    height: 1100px;
     float: left;
     
     /* 2. Use calc() to set the negative left margin */
@@ -109,7 +109,6 @@ body {	margin: 0;}
     /* all the way back to the viewport's left edge. */
     margin-left: calc(50% - 50vw);
     margin-top: 10px;
-
 }
 
 /* OUR STUDIO */
@@ -172,8 +171,6 @@ body {	margin: 0;}
     width: 1440px;
     height: 548px;
     float: left;
-    position: relative;
-    z-index: 1;
 }
 
     
@@ -382,17 +379,16 @@ body {	margin: 0;}
 
 /* NEWS */
 
-.newsSection {
+#newsSection {
     display: flex;
     justify-content: center;
-    z-index: 2;
     gap: 20px;
     margin-top: -548px;
     margin-left: -40px;
 }
 
-.newsArrows {
-    
+.newsGeneralOne, .newsGeneralTwo, .newsGeneralThree, .newsGeneralFour {
+    cursor: pointer;
 }
 
 .imageNews {
@@ -417,6 +413,14 @@ body {	margin: 0;}
 
 .newsFour {
     background-image: url(../images/newsFour.png);
+}
+
+#newsDescriptions {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    width: 288px;
+    height: 132px;
 }
 
 
