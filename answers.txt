@@ -1,0 +1,11 @@
+1. What did you like about this project?
+
+I liked how I got the creative freedom to not only create a new logo and website layout, but also learn the "hard way" through setting up my entire code in a really bad way. I did get to explore the different ways of laying out a website, and figuring out problems on my own for how I wanted certain stuff to be layed out. 
+
+2. What didn't you like about this project?
+
+How I had a little too creative freedom, to the point where I confused myself and made the code way more complicated then it shouldve been. I also wished flex was introduced before I was knee deep in my website. 
+
+3. What would you like to learn more about?
+
+How to properly organize my code, now that I know a majority of what the code does. I feel like I have the knowledge, but not the strategy.
