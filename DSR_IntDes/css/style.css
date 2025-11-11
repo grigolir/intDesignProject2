@@ -405,6 +405,13 @@ a.plainLink, a.plainLink:visited, a.plainLink:hover, a.plainLink:focus {
     margin-top: -450px;
 }
 
+.tabs1234 {
+    background-image: url(../images/projectTabsArrows.png);
+    float: right;
+    width: 289.669px;
+    height: 72px;
+}
+
 
 /* NEWS */
 
